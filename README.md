@@ -6,6 +6,7 @@ Python scripts for *MERRA-2 Surface Organic Carbon over Bangladesh: Seasonality,
 python -m pip install -r requirements.txt
 ```
 
+To prepare Bangladesh_OA_HCHO_NO2_ERA5_Master_2019_2025.csv, use the source links and preprocessing steps in the manuscript to combine MERRA-2 OCSMASS, ERA5 meteorology, and TROPOMI HCHO and NO₂ into one record per UTC day and MERRA-2 grid cell over Bangladesh for 2019–2025.
 Put `Bangladesh_OA_HCHO_NO2_ERA5_Master_2019_2025.csv` in the project folder. Run the scripts from that folder, or set `OA_PROJECT_FOLDER` to its path.
 
 The 2025 test uses the locked histogram gradient boosting model reported in the paper.
