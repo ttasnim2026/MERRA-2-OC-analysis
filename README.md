@@ -16,4 +16,4 @@ The 2025 test uses the locked histogram gradient boosting model reported in the 
 3. For CO and fire, put `Bangladesh_TROPOMI_CO_Daily_MERRAgrid_2019_2024_FINAL.csv` in the project folder and the FIRMS archives in `FIRMS_VIIRS_2019_2024/`. Run `Bangladesh_VIIRS_Fire_Sensitivity_Analysis.py`, then `Bangladesh_CO_Fire_Integrated_Model_Comparison.py`.
 4. Run `06_publication` for the main tables and plots. The optional outlier check needs both the spatial and CO/fire outputs.
 
-Data and download scripts are not included. The paper lists the data sources.
+Data are not included. The paper lists the data sources.
